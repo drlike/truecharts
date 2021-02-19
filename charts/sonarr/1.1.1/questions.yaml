@@ -159,6 +159,12 @@ questions:
                   required: true
                   hidden: true
                   editable: false
+              - variable: setPermissions
+                label: "enabled"
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: false 
               - variable: emptyDir
                 label: "emptyDir"
                 schema:
@@ -208,6 +214,12 @@ questions:
                   required: true
                   hidden: true
                   editable: false
+              - variable: setPermissions
+                label: "enabled"
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: false 
               - variable: emptyDir
                 label: "emptyDir"
                 schema:
@@ -257,6 +269,12 @@ questions:
                   required: true
                   hidden: true
                   editable: false
+              - variable: setPermissions
+                label: "enabled"
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: false 
               - variable: emptyDir
                 label: "emptyDir"
                 schema:
